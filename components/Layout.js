@@ -1,5 +1,6 @@
 import Header from '../elements/Header';
 import Aside from '../elements/Aside';
+import Footer from '../elements/Footer';
 import styles from './Layout.module.css';
 
 const Layout = (props) => {
@@ -12,6 +13,7 @@ const Layout = (props) => {
                     { props.children }
                 </main>
             </div>
+            <Footer />
         </div>
     );
 }

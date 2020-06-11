@@ -22,11 +22,5 @@ h3 {
   border-left: 2px solid #696969;
 }
 ul li {
-  font-size: 20px;
   list-style: none;
-  padding: 10px;
-  border-bottom: 1px dashed #696969;
-}
-ul li a {
-  color: #3ea8a3;
 }
