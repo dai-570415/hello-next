@@ -16,6 +16,9 @@ const Aside = () => {
                 <Link href="/fetch">
                     <a className="link">FETCH SAMPLE</a>
                 </Link>
+                <Link href="/gasapi">
+                    <a className="link">GAS SAMPLE</a>
+                </Link>
             </aside>
             
             <style jsx>{`
@@ -23,9 +26,6 @@ const Aside = () => {
                     min-width: 150px;
                     margin: 0 0 0 50px;
                     height: 80vh;
-                }
-                aside {
-                    margin: 0 0 100px 0;
                 }
                 aside .link {
                     display: block;
@@ -36,9 +36,6 @@ const Aside = () => {
                     .side-bar {
                         margin: 0;
                         height: 25vh;
-                    }
-                    aside {
-                        margin: 50px 0 0 0;
                     }
                 }
             `}</style>
